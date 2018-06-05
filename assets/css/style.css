@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url("../images/background.png");
+    margin: auto;
+}
+h1 { 
+    display: block;
+    font-size: 2em;
+    padding: 10px;
+    margin: 25px;
+    font-weight: bold;
+}
+
+#tutorial {
+    width: 300px;
+    border: 5px solid blueviolet;
+    padding: 10px;
+    margin: 25px;
+    background-color: salmon;
+}
+
+.scoreBoard {
+    width: 350px;
+    border: 5px solid greenyellow;
+    padding: 10px;
+    margin: 25px;
+    background-color: seagreen
+}
+
+.gems {
+    padding: 10px;
+    margin: 25px;
+}
+
+.totalScore {
+    width: 350px;
+    border: 5px solid greenyellow;
+    padding: 25px;
+    margin: 25px;
+    background-color: seagreen
+}
