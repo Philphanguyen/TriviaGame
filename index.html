@@ -2,7 +2,7 @@
 <html lang ="en-us">
 <head>
     <meta charaset="utf-8">
-    <title>Gem Game</title>
+    <title>The Wes Anderson Collection Trivia</title>
 
     <link rel="stylesheet" type = "text/css" href = "assets/css/reset.css"/>
     <link rel="stylesheet" type = "text/css" href = "assets/css/style.css"/>
@@ -12,6 +12,99 @@
 </head>
 
 <body>
+
+<div id="triviaArea">
+    <h1>The Wes Anderson Collection Trivia</h1>
+
+    <div id="questionArea">
+        <h2 id = "timer">Time remaining: <span id ="countDown">100 seconds</span></h2>
+            <button id = "buttonStart">Begin</button>
+        <br>
+        <span id = "question1">
+            <form>
+               <h2>1. Wes Anderson's first film was?</h2> <br>
+                <input type="radio" name="answer1" value="false"> Rushmore
+                <input type="radio" name="answer1" value="false"> Se7en
+                <input type="radio" name="answer1" value="true"> Bottle Rocket
+                <input type="radio" name="answer1" value="false"> The Royal Tenenbaums
+            </form>  
+        </span>
+        <span id = "question2">
+            <form>
+               <h2>2. Owen Wilson was unavailable for Rushmore due to what film?</h2> <br>
+                <input type="radio" name="answer2" value="false"> Anaconda
+                <input type="radio" name="answer2" value="true"> Armageddon
+                <input type="radio" name="answer2" value="false"> The Cable Guy
+                <input type="radio" name="answer2" value="false"> The Haunting
+            </form>  
+        </span>
+        <span id = "question3">
+            <form>
+               <h2>3. The Credits of The Life Aquatic with Steve Zissou is based on which film?</h2> <br>
+                <input type="radio" name="answer3" value="false"> Lady Snowblood
+                <input type="radio" name="answer3" value="false"> Big Trouble in Little China
+                <input type="radio" name="answer3" value="false"> The Big Blue
+                <input type="radio" name="answer3" value="true"> The Adventures of Buckaroo Banzai
+            </form>  
+        </span>
+        <span id = "question4">
+            <form>
+               <h2>4. Which film is Wes Anderson's first film set in the future?</h2> <br>
+                <input type="radio" name="answer4" value="false"> Fantastic Mr. Fox
+                <input type="radio" name="answer4" value="true"> Isle of Dogs
+                <input type="radio" name="answer4" value="false"> The Royale Tenenbaums
+                <input type="radio" name="answer4" value="false"> The Grand Budapest Hotel
+            </form>  
+        </span>
+        <span id = "question5">
+            <form>
+               <h2>5. Edward Norton's character in Moonrise Kingdom is a?</h2> <br>
+                <input type="radio" name="answer5" value="true"> Scout Master
+                <input type="radio" name="answer5" value="false"> Math Teacher
+                <input type="radio" name="answer5" value="false"> Mathmatician
+                <input type="radio" name="answer5" value="false"> Writer
+            </form>  
+        </span>
+        <span id = "question6">
+            <form>
+               <h2>6. Which is not a member of the Tenenbaum family?</h2> <br>
+                <input type="radio" name="answer6" value="false"> Uzi
+                <input type="radio" name="answer6" value="true"> Eli
+                <input type="radio" name="answer6" value="false"> Richie
+                <input type="radio" name="answer6" value="false"> Chas
+            </form>  
+        </span>
+        <span id = "question7">
+            <form>
+               <h2>7. Which Wes Anderson film contains many references to the works of Agatha Christie?</h2> <br>
+                <input type="radio" name="answer7" value="false"> The Darjeeling Limited
+                <input type="radio" name="answer7" value="false"> The Unicorn and the Wasp
+                <input type="radio" name="answer7" value="true"> The Grand Budapest Hotel
+                <input type="radio" name="answer7" value="false"> Moonrise Kingdom
+            </form>  
+        </span>
+        <span id = "question8">
+            <form>
+               <h2>8. Mr. Fox's outfit from the film is based off of which person?</h2> <br>
+                <input type="radio" name="answer8" value="false"> Ian Flemming
+                <input type="radio" name="answer8" value="false"> Roald Dahl
+                <input type="radio" name="answer8" value="false"> George Clooney
+                <input type="radio" name="answer8" value="true"> Wes Anderson
+            </form>  
+        </span>
+        <br><br>
+        <button id = "buttonFinished">Submit</button>
+
+        <div id = "scoreBoard">
+            <span id = "correct"></span><br>
+            <span id = "incorrect"></span><br>
+            <span id = "unanswered"></span>
+        </div>
+
+
+    </div>
+
+</div>
 
 </body>
 
